@@ -1,0 +1,387 @@
+    1  exit
+    2  sudo service ssh start
+    3  exit
+    4  ip a
+    5  sudo service ssh start
+    6  ip a
+    7  exit
+    8  sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
+    9  vim tools.list
+   10  sudo apt install $(cat tools.list | tr "\n" " ") -y
+   11  sudo apt install netcat-traditional
+   12  netcat -h
+   13  git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
+   14  cp .bashrc .bashrc.bak
+   15  echo 'export PS1="-[\[$(tput sgr0)\]\[\033[38;5;10m\]\d\[$(tput sgr0)\]-\[$(tput sgr0)\]\[\033[38;5;10m\]\t\[$(tput sgr0)\]]-[\[$(tput sgr0)\]\[\033[38;5;214m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[\033[38;5;196m\]\h\[$(tput sgr0)\]]-\n-[\[$(tput sgr0)\]\[\033[38;5;33m\]\w\[$(tput sgr0)\]]\\$ \[$(tput sgr0)\]"' >> .bashrc
+   16  ls
+   17  curl -sS https://webi.sh/lsd | sh; source ~/.config/envman/PATH.env
+   18  source ~/.config/envman/PATH.env
+   19  lsd
+   20  lsd --tree
+   21  curl -sS https://webi.sh/nerdfont | sh; source ~/.config/envman/PATH.env
+   22  lsd --tree
+   23  lsd
+   24  lsd --tree
+   25  clear
+   26  ls
+   27  cd ../
+   28  ls
+   29  cd ./bin
+   30  ls
+   31  echo $PATH
+   32  man x86_64-linux-gnu-as
+   33  man nasm
+   34  cd ~
+   35  ls
+   36  cd ./Documents
+   37  sudo vi arthur_makes_stinky_doo_doos
+   38  ls
+   39  sudo vi arthur_makes_stinky_doo_doos
+   40  sudo vi testmeSempai.c
+   41  ls
+   42  rm arthur_makes_stinky_doo_doos
+   43  ls
+   44  sudo rm arthur_makes_stinky_doo_doos
+   45  ls
+   46  gcc -S testmesempia 
+   47  ls
+   48  gcc testmesempia.c
+   49  ls
+   50  gcc testmeSempia.c
+   51  ls
+   52  gcc testmeSempia.c
+   53  ls
+   54  gcc testmeSempai.c
+   55  ls
+   56  objdump -S a.out
+   57  ls
+   58  sudo vi memtest.c
+   59  ls
+   60  gcc memtest.c -o testme
+   61  sudo vi memtest.c
+   62  ls
+   63  cd ./Documents
+   64  ls
+   65  cat memtest.c
+   66  sudo vi memtest.c
+   67  ls
+   68  cp memtest.c memtest1.c
+   69  ls
+   70  vi memtest1.c
+   71  gcc memtest1.c -o testme
+   72  vi memtest1.c
+   73  gcc memtest1.c -o testme
+   74  ./testme
+   75  vi memtest1.c
+   76  gcc memtest1.c -o testme
+   77  ./testme
+   78  vi memtest1.c
+   79  gcc memtest1.c -o testme
+   80  vi memtest1.c
+   81  ./testme
+   82  gcc memtest1.c -o testme
+   83  ./testme
+   84  clera
+   85  clear
+   86  ./testme
+   87  vi memtest1.c
+   88  cat memtest1.c
+   89  vi memtest1.c
+   90  ./testme
+   91  clear
+   92  vimtutor
+   93  vim vimtutor
+   94  ls
+   95  vim
+   96  nano testme.c
+   97  ls
+   98  gcc testme.c
+   99  ./testme
+  100  ./a.out
+  101  nano testme.c
+  102  gcc testme.c
+  103  ./a.out
+  104  gcc testme.c
+  105  ./a.out
+  106  nano testme.c
+  107  gcc testme.c
+  108  ./a.out
+  109  nano testme.c
+  110  ./a.out
+  111  gcc testme.c
+  112  ./a.out
+  113  nano testme.c
+  114  gcc testme.c
+  115  ./a.out
+  116  clear
+  117  ls
+  118  cd ./Haber
+  119  ls
+  120  nano riseAndSettle.c
+  121  ls
+  122  cd ./Documents
+  123  ls
+  124  cd ./Haber
+  125  ls
+  126  ./fancy
+  127  cat riseAndSettle.c
+  128  clear
+  129  cd ../
+  130  mkdir testingStuff
+  131  cd ./testingStuff
+  132  nano pywriter.py
+  133  nano generate+cosine.py
+  134  nano cosine_plot.gnu
+  135  ls
+  136  python generate+cosine.py 
+  137  sudo apt install python
+  138  python3 -h
+  139  clear
+  140  python3 generate+cosine.py 
+  141  ls
+  142  python3 gnuplot -persist cosine_plot.gnu
+  143  gnuplot -persist cosine_plot.gnu
+  144  ls
+  145  cd ../
+  146  ls
+  147  cd ./Haber
+  148  vi TransientResponseSpec.c
+  149  vi transient.txt
+  150  vi TransientResponseSpec.c
+  151  clear
+  152  ls
+  153  vi TransientResponseSpec.c
+  154  cd ../
+  155  ls
+  156  mkdir mitOS
+  157  sudo apt-get install git build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu 
+  158  qemu-system-riscv64 --version
+  159  riscv64-linux-gnu-gcc --version
+  160  git clone git://g.csail.mit.edu/xv6-labs-2024
+  161  ls
+  162  mv xv6-labs-2024 ./mitOS
+  163  ls
+  164  cd ./mitOS
+  165  ls
+  166  cd ./xv6-labs-2024
+  167  ls
+  168  make qemu
+  169  ./grade-lab-util sleep
+  170  ls
+  171  make qemu
+  172  man calender
+  173  man cal
+  174  man date
+  175  clear
+  176  ls
+  177  cd ../
+  178  ls
+  179  cd ../
+  180  ls
+  181  stat memtest1.c
+  182  find / bin
+  183  ls
+  184  cd `
+  185  cd ~
+  186  ls
+  187  cd /
+  188  ls
+  189  man logger
+  190  cat /etc/passwd | awk -F: '(print $7) | sort | uniq -c
+  191  cat /etc/passwd | awk -F: '(print $7) 
+  192  ls
+  193  cd ./tools/stg
+  194  ls
+  195  ./STIGViewer
+  196  ssh mchammer@prolug.asuscomm.com
+  197  cd ~
+  198  vi cond.sh
+  199  bash cond.sh 50
+  200  vi cond.sh
+  201  bash cond.sh 
+  202  vi cond.sh
+  203  bash cond.sh 
+  204  vi cond.sh
+  205  bash cond.sh 
+  206  vi cond.sh
+  207  bash cond.sh 
+  208  vi cond.sh
+  209  bash cond.sh 
+  210  vi cond.sh
+  211  bash cond.sh 
+  212  vi cond.sh
+  213  bash cond.sh 
+  214  vi cond.sh
+  215  bash cond.sh 
+  216  clear
+  217  vi cond.sh
+  218  bash cond.sh  > meow.txt
+  219  gedit meow.txt
+  220  vi meow.txt
+  221  vi cond.sh
+  222  bash cond.sh
+  223  vi cond.sh
+  224  bash cond.sh
+  225  vi cond.sh
+  226  bash cond.sh
+  227  man base64
+  228  bash cond.sh
+  229  vi cond.sh
+  230  bash cond.sh
+  231  vi cond.sh
+  232  ls
+  233  wc -l < meow.txt
+  234  wc  < meow.txt
+  235  vi cond.sh
+  236  vi con.sh
+  237  bash con.sh
+  238  vi con.sh
+  239  bash con.sh
+  240  vi con.sh
+  241  bash con.sh
+  242  vi cond.sh
+  243  bash cond.sh
+  244  clear
+  245  ifconfig
+  246  nmap -sn 192.168.1.0/24
+  247  man Nmap
+  248  ip a
+  249  sudo arp-scan --interface=eth0 --localnet
+  250  for ip in $(seq 1 254); do ping -c 1 -W 1 192.168.1.$ip >/dev/null && echo "192.168.1.$ip is up"; done
+  251  arp -a
+  252  ssh pi@192.168.1.7
+  253  ssh pi@192.168.1.6
+  254  ping raspberrypi.local
+  255  ssh arthurpi@192.168.1.2
+  256  ssh arthurpi@192.168.1.4
+  257  ssh arthurpi@192.168.1.5
+  258  ssh Arthur@arthupi.local
+  259  ssh arthurpi@192.168.1.5
+  260  ssh arthurpi@192.168.1.6
+  261  ping raspberrypi.local
+  262  ssh arthurpi@192.168.1.7
+  263  ssh arthurpi@192.168.1.6
+  264  ssh AJ@192.168.1.6
+  265  ssh arthurspi@192.168.1.6
+  266  ssh Arthurspi@192.168.1.6
+  267  ssh AJ@192.168.1.6
+  268  ssh AJ@192.168.1.5
+  269  ssh Arhurspi@192.168.1.5
+  270  clear
+  271  curl -sS https://webi.sh/golang | sh
+  272  q
+  273  go install github.com/bootdotdev/bootdev@latest
+  274  bootdev --version
+  275  bootdev login
+  276  # For Linux/WSL
+  277  echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc
+  278  # next, reload your shell configuration
+  279  source ~/.bashrc
+  280  bootdev --version
+  281  bootdev login
+  282  bootdev run 65e6780d-fdde-447a-9898-b30b73793a3a
+  283  bootdev run 65e6780d-fdde-447a-9898-b30b73793a3a -s
+  284  git --version
+  285  bootdev run 0552b1c3-49d9-4d4b-b44d-e91188a79c92
+  286  bootdev run 0552b1c3-49d9-4d4b-b44d-e91188a79c92 -s
+  287  git config --get user.email
+  288  git config --add --global user.name "EjacobsMotorsDrives"
+  289  git config --add --global user.email "theletterj7@gmail.com"
+  290  cat ~/.gitconfig
+  291  bootdev run 69fb8a76-9456-47e2-9804-05466614882e -s
+  292  git config --global init.defaultBranch master
+  293  bootdev run 69fb8a76-9456-47e2-9804-05466614882e -s
+  294  cat ~/.gitconfig
+  295  ls
+  296  cd ./Documents
+  297  ls
+  298  mkdir bootDev
+  299  cd ./bootDev
+  300  mkdir webflyx
+  301  cd ./webflyx
+  302  git init
+  303  ls -a
+  304  bootdev run fda2c302-cb1e-4ed1-910c-609d85d33e4a -s
+  305  cd ../
+  306  mkdir bookBot
+  307  cd ./bookBot
+  308  bootdev run 6120f97b-117f-4a84-94d6-a3436f21f1a4 -s
+  309  git clone https://github.com/EjacobsMotorsDrives/bookbot.git
+  310  ls
+  311  cs bookbot
+  312  cd bookbot
+  313  ls
+  314  bootdev run b193d218-e022-4fb1-95be-1b9c2c440927 -s
+  315  sudo vi README.md
+  316  bootdev run 4695fb05-cb7c-44e4-b206-0ed8eac44588 -s
+  317  git add .
+  318  git commit -m "update readme with a description"
+  319  gh auth login
+  320  git auth login
+  321  sudo apt update
+  322  sudo apt install gh
+  323  gh auth login
+  324  git push origin main
+  325  python3 --version
+  326  bootdev run d2371c4c-0dad-4c85-9d4f-e92da72335f6 -s
+  327  touch main.py
+  328  sudo vi main.py
+  329  python3 main.py
+  330  bootdev run d6350dd3-7ec9-425b-b10c-892b8f2a9b7a -s
+  331  mkdir books
+  332  touch ./bookts/frankestein.txt
+  333  ls books
+  334  ls -l ./books
+  335  touch ./books/frankestein.txt
+  336  ls books
+  337  rm -r bookts
+  338  ls
+  339  curl https://www.gutenberg.org/cache/epub/41445/pg41445.txt > ./books/frankenstein.txt
+  340  cat ./books/frankenstein.txt
+  341  clear
+  342  ls
+  343  touch .gitignore
+  344  cat "books" > .gitignore
+  345  sudo vi .gitignore
+  346  bootdev run 3e0113f5-18a9-4b4a-9600-6b9b928c01ac -s
+  347  ls
+  348  sudo vi main.py
+  349  python3 main.py
+  350  sudo vi main.py
+  351  python3 main.py
+  352  sudo vi main.py
+  353  python3 main.py
+  354  sudo vi main.py
+  355  python3 main.py
+  356  sudo vi main.py
+  357  clear
+  358  python3 main.py
+  359  sudo vi main.py
+  360  python3 main.py
+  361  bootdev run c6b03f98-bb00-4016-8db1-10300246c0e1 -s
+  362  sudo vi main.py
+  363  python3 main.py
+  364  sudo vi main.py
+  365  python3 main.py
+  366  bootdev run 73bd80d2-edb5-492e-9212-967eba7e8047 -s
+  367  sudo vi main.py
+  368  sudo vi stats.py
+  369  sudo vi main.py
+  370  bootdev run bea7b054-305c-4d25-9464-97b6c5606e31
+  371  bootdev run bea7b054-305c-4d25-9464-97b6c5606e31 -s
+  372  bootdev run b0cebf37-7151-48db-ad8a-0f9399f94c58 -s
+  373  sudo vi stats.py
+  374  sudo vi main.py
+  375  sudo vi stats.py
+  376  sudo vi main.py
+  377  sudo vi stats.py
+  378  sudo vi main.py
+  379  bootdev run b82a6805-17c9-4b1c-a1e6-def866faa7e6 -s
+  380  sudo vi stats.py
+  381  bootdev run b82a6805-17c9-4b1c-a1e6-def866faa7e6 -s
+  382  sudo vi stats.py
+  383  bootdev run b82a6805-17c9-4b1c-a1e6-def866faa7e6 -s
+  384  sudo vi stats.py
+  385  bootdev run b82a6805-17c9-4b1c-a1e6-def866faa7e6 -s
+  386  history
+  387  history > uwu.txt
